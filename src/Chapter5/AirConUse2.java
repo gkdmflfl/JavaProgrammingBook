@@ -1,6 +1,6 @@
 package Chapter5;
 
-public class AirConUse {
+public class AirConUse2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -19,7 +19,18 @@ public class AirConUse {
 		airCon.tempDown();
 		System.out.println("airCon.temp = " + airCon.temp + ", airCon.color = " + airCon.color
 				+ ", airCon.price = " + airCon.price);
-
+		
+		/*====================================*/
+		
+		AirCon airCon2 = new AirCon();
+		System.out.println("airCon2.temp = " + airCon2.temp + ", airCon2.color = " + airCon2.color
+				+ ", airCon2.price = " + airCon2.price);
+		
+		//airCon2 변수에 airCon1 변수 참조 값 할당
+		airCon2 = airCon;
+		System.out.println("airCon2.temp = " + airCon2.temp + ", airCon2.color = " + airCon2.color
+				+ ", airCon2.price = " + airCon2.price);
+		
 	}
 
 }
