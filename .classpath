@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="Chapter5/AirCon.java|Chapter5/AirConUse.java|Chapter5/AirConUse2.java|Chapter5/ArgsTest.java|Chapter5/ConstructorTest.java|Chapter5/InitialBlockTest.java|Chapter5/OverloadingTest.java|Chapter5/StaticMethod.java|Chapter5/VariableArgument.java|Chapter5/VariableKind.java" kind="src" path="src"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
